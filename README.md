@@ -1,6 +1,6 @@
 # SMR Lamp Setup
 
-This is a basic LAMP stack environment built using Docker Compose. It consists following:
+This is a basic LAMP stack environment built using Docker Compose. It consists of the following:
 
 * PHP 7.1
 * Apache 2.4
@@ -29,7 +29,7 @@ Apache is configured to run on port 80. So, you can access it via `http://localh
 
 #### Apache Modules
 
-By default following modules are enabled.
+By default the following modules are enabled.
 
 * rewrite
 
@@ -42,7 +42,7 @@ The installed version of PHP is 7.1.
 
 #### Extensions
 
-By default following extensions are installed.
+By default the following extensions are installed.
 
 * mysqli
 * mbstring
@@ -61,7 +61,7 @@ By default following extensions are installed.
 
 ## phpMyAdmin
 
-phpMyAdmin is configured to run on port 8080. Use following default credentials.
+phpMyAdmin is configured to run on port 8080. Use the following default credentials.
 
 http://localhost:8080/  
 username: root  
