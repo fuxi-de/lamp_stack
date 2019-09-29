@@ -9,11 +9,10 @@ This is a basic LAMP stack environment built using Docker Compose. It consists o
 
 ## Installation
 
-Clone this repository. Run the `docker-compose up -d`.
+Clone this repository. Run `docker-compose up -d`.
 
 ```shell
-git clone git@gitlab.com:schumacher-visuell/smr_lamp_setup.git
-cd smr-lamp-setup/
+cd lamp_stack/
 docker-compose up -d
 ```
 
@@ -27,14 +26,6 @@ In `./www/cms` you can add your chosen CMS and access it via apache. The Documen
 
 Apache is configured to run on port 80. So, you can access it via `http://localhost`.
 
-#### Apache Modules
-
-By default the following modules are enabled.
-
-* rewrite
-
-> If you want to enable more modules, just update `./bin/webserver/Dockerfile`.
-> You have to rebuild the docker image by running `docker-compose build` and restart the docker containers.
 
 ## PHP
 
@@ -56,12 +47,12 @@ By default the following extensions are installed.
 * xmlrpc
 * gd
 
-> If you want to install more extension, just update `./bin/webserver/Dockerfile`.
+> If you want to install more extensions, update `./bin/webserver/Dockerfile` as you wish.
 > You have to rebuild the docker image by running `docker-compose build` and restart the docker containers.
 
 ## phpMyAdmin
 
-phpMyAdmin is configured to run on port 8080. Use the following default credentials.
+phpMyAdmin is configured to run on port 8080.
 
 http://localhost:8080/  
 username: root  
