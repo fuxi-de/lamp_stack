@@ -48,7 +48,7 @@ By default the following extensions are installed.
 * gd
 
 > If you want to install more extensions, update `./bin/webserver/Dockerfile` as you wish.
-> You have to rebuild the docker image by running `docker-compose build` and restart the docker containers.
+> Afterwards you have to rebuild the docker image by running `docker-compose build` and restart the containers.
 
 ## phpMyAdmin
 
