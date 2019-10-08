@@ -1,4 +1,4 @@
-# SMR Lamp Setup
+# Lamp Setup
 
 This is a basic LAMP stack environment built using Docker Compose. It consists of the following:
 
